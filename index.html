@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Centre de Notices</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      text-align: center;
+      padding: 20px;
+      background: #f8f9fa;
+    }
+    h1 {
+      font-size: 1em;
+      margin: 10px 0 0px 0;
+      color: #333;
+    }
+    p {
+      margin-bottom: 20px;
+      color: #555;
+    }
+
+    /* Logo centré et responsive */
+    .logo {
+      width: 300px;          /* largeur maximale */
+      max-width: 90%;        /* réduit automatiquement sur mobile */
+      display: block;        /* nécessaire pour margin auto */
+      margin: 0 auto 20px auto;
+    }
+    /* Boutons langue */
+    .lang-button {
+      display: block;                 
+      text-align: center;             
+      margin: 10px auto;
+      padding: 12px 40px;             
+      background-color: #a9dfe7;
+      color: white;
+      text-decoration: none;
+      border-radius: 8px;
+      width: 70%;
+      max-width: 300px;
+      font-weight: bold;
+      background-repeat: no-repeat;
+      background-position: 10px center; 
+      background-size: 24px auto;      
+    }
+    .lang-button:hover {
+      background-color: #ffe0cd;
+    }
+    /* Drapeaux par langue */
+    .fr { background-image: url('flags/fr.png'); }
+    .de { background-image: url('flags/de.png'); }
+    .es { background-image: url('flags/es.png'); }
+    .it { background-image: url('flags/it.png'); }
+    .en { background-image: url('flags/gb.png'); }
+    .nl { background-image: url('flags/nl.png'); }
+    .pt { background-image: url('flags/pt.png'); }
+
+  </style>
+</head>
+<body>
+  <!-- Logo -->
+  <img src="HOPIE LOGO.png" alt="Logo de la marque" class="logo">
+
+  <h1>Bienvenue sur le centre de notices</h1>
+  <p>Sélectionnez votre langue pour télécharger la notice de votre produit :</p>
+  <h1>Welcome on the user manual center</h1>
+  <p>Select your language to download the user manual :</p>
+
+  <!-- Boutons avec drapeaux -->
+  <a class="lang-button fr" href="Notice utilisation dermaroller visage Hopie.pdf">Français</a>
+  <a class="lang-button en" href="User manual for Dermaroller HOPIE.pdf">English</a>
+  <a class="lang-button es" href="Instrucciones de uso del Dermaroller para el rostro.pdf">Español</a>
+
+  <!--<a class="lang-button it" href="notice-it.pdf">Italiano</a>
+  <a class="lang-button de" href="notice-de.pdf">Deutsch</a>
+  <a class="lang-button nl" href="notice-it.pdf">Niederländisch</a>
+  <a class="lang-button pt" href="notice-it.pdf">Português</a>-->
+
+</body>
+</html>
